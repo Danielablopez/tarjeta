@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Invitación de Cumpleaños!</title>
+    <meta property="og:title" content="¡Invitación de Cumpleaños!">
+    <meta property="og:description" content="¡Te invito a mi cumpleaños! Ven a celebrar conmigo.">
+    <meta property="og:image" content="https://example.com/imagenes/fondo.jpg">
+    <meta property="
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2/dist/confetti.browser.min.js"></script>
     <style>
         
@@ -135,7 +139,7 @@
         }
 
         function confirmarAsistencia() {
-            const mensaje = "Hola, confirmo mi asistencia al cumple de Elena.";
+            const mensaje = "Hola, confirmo mi asistencia al cumpleños de Elena.";
             const numero = "5492477582423"; 
             window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`, '_blank');
         }
