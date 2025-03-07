@@ -7,6 +7,7 @@
     <title>¡Invitación de Cumpleaños!</title>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2/dist/confetti.browser.min.js"></script>
     <style>
+        
         body {
             background-color: #ffccf2;
             font-family: Arial, sans-serif;
@@ -116,7 +117,7 @@
             📌 <b>Dirección:</b> Ameghino 714, Pergamino
         </p>
         <p>¡Te espero para celebrar juntos!</p>
-        <button onclick="confirmarAsistencia()">Confirmar Asistencia</button>
+        <button onclick="confirmarAsistencia()">Confirmar Asistencia Aqui</button>
     </div>
 
     <audio autoplay>
@@ -134,7 +135,7 @@
         }
 
         function confirmarAsistencia() {
-            const mensaje = "Hola, confirmo mi asistencia a la fiesta de cumpleaños.";
+            const mensaje = "Hola, confirmo mi asistencia al cumple de Elena.";
             const numero = "5492477582423"; 
             window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`, '_blank');
         }
